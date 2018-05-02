@@ -10,6 +10,8 @@
 		265B6C6E209A0A0B0095B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6C6D209A0A0B0095B654 /* AppDelegate.swift */; };
 		265B6C70209A0A0D0095B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265B6C6F209A0A0D0095B654 /* Assets.xcassets */; };
 		265B6C73209A0A0D0095B654 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265B6C71209A0A0D0095B654 /* MainMenu.xib */; };
+		265B6C7D209A0E290095B654 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6C7B209A0E290095B654 /* MainWindowController.swift */; };
+		265B6C7E209A0E290095B654 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265B6C7C209A0E290095B654 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		265B6C72209A0A0D0095B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		265B6C74209A0A0D0095B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265B6C75209A0A0D0095B654 /* RandomPassword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RandomPassword.entitlements; sourceTree = "<group>"; };
+		265B6C7B209A0E290095B654 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		265B6C7C209A0E290095B654 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				265B6C6D209A0A0B0095B654 /* AppDelegate.swift */,
+				265B6C7B209A0E290095B654 /* MainWindowController.swift */,
+				265B6C7C209A0E290095B654 /* MainWindowController.xib */,
 				265B6C6F209A0A0D0095B654 /* Assets.xcassets */,
 				265B6C71209A0A0D0095B654 /* MainMenu.xib */,
 				265B6C74209A0A0D0095B654 /* Info.plist */,
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				265B6C70209A0A0D0095B654 /* Assets.xcassets in Resources */,
+				265B6C7E209A0E290095B654 /* MainWindowController.xib in Resources */,
 				265B6C73209A0A0D0095B654 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265B6C7D209A0E290095B654 /* MainWindowController.swift in Sources */,
 				265B6C6E209A0A0B0095B654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
